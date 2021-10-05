@@ -1,0 +1,11 @@
+[Sat Mar 20 16:12:03.732458 2021] [mpm_winnt:notice] [pid 6772:tid 840] AH00455: Apache/2.4.43 (Win32) configured -- resuming normal operations
+[Sat Mar 20 16:12:03.734441 2021] [mpm_winnt:notice] [pid 6772:tid 840] AH00456: Server built: Apr 21 2020 13:46:54
+[Sat Mar 20 16:12:03.734441 2021] [core:notice] [pid 6772:tid 840] AH00094: Command line: 'C:\\Users\\koishi\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+6\\bin\\win32\\bin\\httpd.exe -d C:/Users/koishi/AppData/Roaming/Local/lightning-services/apache-2.4.43+6/bin/win32 -D FOREGROUND -f C:\\Users\\koishi\\AppData\\Roaming\\Local\\run\\eAKhLcelO\\conf\\apache\\apache2.conf'
+[Sat Mar 20 16:12:03.739426 2021] [mpm_winnt:notice] [pid 6772:tid 840] AH00418: Parent: Created child process 19484
+[Sat Mar 20 16:12:05.547009 2021] [mpm_winnt:notice] [pid 19484:tid 840] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 20 16:12:44.953592 2021] [core:warn] [pid 10448:tid 784] AH00098: pid file C:/Users/koishi/AppData/Roaming/Local/run/eAKhLcelO/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 20 16:12:44.968551 2021] [mpm_winnt:notice] [pid 10448:tid 784] AH00455: Apache/2.4.43 (Win32) configured -- resuming normal operations
+[Sat Mar 20 16:12:44.968551 2021] [mpm_winnt:notice] [pid 10448:tid 784] AH00456: Server built: Apr 21 2020 13:46:54
+[Sat Mar 20 16:12:44.968551 2021] [core:notice] [pid 10448:tid 784] AH00094: Command line: 'C:\\Users\\koishi\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+6\\bin\\win32\\bin\\httpd.exe -d C:/Users/koishi/AppData/Roaming/Local/lightning-services/apache-2.4.43+6/bin/win32 -D FOREGROUND -f C:\\Users\\koishi\\AppData\\Roaming\\Local\\run\\eAKhLcelO\\conf\\apache\\apache2.conf'
+[Sat Mar 20 16:12:44.973704 2021] [mpm_winnt:notice] [pid 10448:tid 784] AH00418: Parent: Created child process 10128
+[Sat Mar 20 16:12:46.578147 2021] [mpm_winnt:notice] [pid 10128:tid 820] AH00354: Child: Starting 64 worker threads.

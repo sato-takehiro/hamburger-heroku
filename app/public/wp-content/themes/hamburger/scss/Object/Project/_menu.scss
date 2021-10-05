@@ -1,0 +1,120 @@
+.p-menu {
+    display: flex;
+    margin-bottom: 1.56vw;
+    height: $menu-height;
+    position: relative;
+    @include mq() {
+        margin-bottom: 2.45vw;
+        height: $menu-responsive-height;
+    }
+    @include mq(sm) {
+        display: block;
+        height: $menu-responsive-sm-height;				
+        margin-bottom: 80vw;
+    }
+    
+    &__img {
+        width: 100%;
+        vertical-align: bottom;
+        height: 100%;
+        object-fit: cover;
+        @include mq(sm) {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__contents {
+        background-color: $menu-bg-color;
+        color: $font-color-brand;
+        width: 100%;
+        padding-left: 3.28vw;
+        position: relative;
+        @include mq() {
+            padding-left: 4.19vw;
+        }
+        @include mq(sm) {
+            width: 100%;
+            height: 94.4vw;
+            padding-left: 4.53vw;
+        }
+    }
+    &__ttl {
+        font-size: 3.125vw;
+        font-weight: bold;
+        padding-top: 0;
+        padding-left: 4.47vw;
+        position: absolute;
+
+        @include mq() {
+            font-size: 7.18vw;
+            padding-top: 0;
+            padding-left: 10.29vw;
+        }
+        @include mq(sm) {
+            font-size: 9.6vw;
+            padding-top: 15vw;
+            padding-left: 6.93vw;
+            top: 8vw;
+        }
+        &--single {
+            color: $menu-ttl-single-color;
+        }
+        &--search {
+            font-size: 1.87vw;
+            padding-left: 0;
+            padding-top: 2.76vw;
+            position: static;
+            @include mq() {
+                font-size: 2.39vw;
+            }
+            @include mq(sm) {
+                padding-top: 7vw;
+                font-size: 5.33vw;
+            }
+        }
+        &--archive {
+            font-size: 1.87vw;
+            padding-left: 0;
+            padding-top: 2.76vw;
+            position: static;
+            font-size: 1.87vw;
+            @include mq() {
+                font-size: 2.39vw;
+            }
+            @include mq(sm) {
+                padding-top: 7vw;
+                font-size: 5.33vw;
+            }
+        }
+    }
+    &__sub-ttl {
+        font-size: 1.25vw;
+        font-weight: bold;
+        padding-top: 2.44vw;
+        @include mq() {
+            font-size: 1.91vw;
+            padding-top: 2.87vw;
+        }
+        @include mq(sm) {
+            font-size: 4.26vw;
+            padding-top: 6.4vw;
+
+        }
+    }
+    &__description {
+        font-size: 0.83vw;
+        padding-top: 0.88vw;
+        padding-right: 5.41vw;
+        line-height: 1.5;
+        @include mq() {
+            font-size: 1.91vw;
+            padding-top: 1.19vw;
+            padding-right: 7.19vw;
+        }
+        @include mq(sm) {
+            font-size: 4.26vw;
+            padding-top: 2.66vw;
+            padding-right: 19.46vw;
+        }
+    }
+}
