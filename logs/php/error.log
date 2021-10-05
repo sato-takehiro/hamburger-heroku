@@ -1,1 +1,0 @@
-[20-Mar-2021 07:45:11 UTC] WordPress データベースエラー: Table 'local.wp_value_auth_settings' doesn't exist for query SELECT value from wp_value_auth_settings WHERE name = 'verified'; made by activate_plugin, include_once('/plugins/valueauth/valueauth.php'), ValueAuthAdapter->__construct, ValueAuthSetting::verified, ValueAuthSetting::getValue
